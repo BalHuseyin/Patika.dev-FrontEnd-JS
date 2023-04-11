@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&family=Rubik:wght@300;400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #222;
+  font-family: 'Rubik', sans-serif;
+  color: darkgrey;
+
+}
+.container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 64px;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.title{
+  font-family: 'Rubik Moonrocks', cursive;
+  color: darkorange;
+  font-size: 48px;
+}
+.datenow , .users{
+  color: red;
+}
